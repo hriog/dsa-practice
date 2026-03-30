@@ -1,0 +1,7 @@
+# Contains Duplicate - Easy (#217)
+# Approach: Set - if set length differs from array, duplicate exists
+# Day 2 - 30 March 2026
+
+class Solution:
+    def containsDuplicate(self, nums):
+        return len(nums) != len(set(nums))
